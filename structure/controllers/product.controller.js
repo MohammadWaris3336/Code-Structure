@@ -11,6 +11,7 @@ exports.productcreate= function (req, res ,next){
         {
         name: req.body.name,
         category: req.body.category,
+        subcategory: req.body.subcategory,
         rating: req.body.rating,
         price: req.body.price
         }
